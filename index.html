@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Page</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Pacifico);
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('/Images/cherry-blossom.png'); /* Replace 'your-background-image.jpg' with the actual image file path */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Pacifico', cursive;
+
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 25px; /* Adjust the margin as needed */
+            margin-bottom: 25px;
+        }
+        button {
+            background-color: #ff4081;
+            color: #fff;
+            font-size: 25px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+            font-family: 'Pacifico', cursive;
+            display: flex;
+
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button onclick="window.location.href='http://127.0.0.1:5500/q1.html';" >Enter here! ❤️</button>
+        <button style="margin-top: 25px; cursor: not-allowed;"> Or </button>
+        <button style="margin-top: 25px;" onclick="window.location.href='http://127.0.0.1:5500/q2.html';" >Enter here! 😈</button>
+    </div>
+        
+</body>
+</html>
